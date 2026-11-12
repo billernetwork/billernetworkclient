@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Client Log-on | Biller Network</title>
+<link rel="stylesheet" href="style.css">
+<script src="login.js" defer></script>
+</head>
+<body>
+<header><a href="https://billernetwork.site/">Biller Network<span>.</span></a></header>
+<main>
+<section class="intro">
+<p class="label">CLIENT PORTAL</p>
+<h1>Your billing.<br><em>In one place.</em></h1>
+<p>The Biller Network client portal is designed for paying bills, uploading receipts, reviewing past vendor transactions, and getting support.</p>
+</section>
+<section class="card" aria-labelledby="title">
+<h2 id="title">Client log-on</h2>
+<p id="demo">Demo only. Use the sample credentials provided to you. Successful entry opens Stripe’s homepage.</p>
+<form id="login" aria-describedby="demo" autocomplete="off">
+<label for="domain">Domain</label>
+<input id="domain" required autocapitalize="none" spellcheck="false" placeholder="example.com">
+<label for="username">Username</label>
+<input id="username" required autocapitalize="none" spellcheck="false">
+<label for="password">Password</label>
+<input id="password" required type="password">
+<label class="remember"><input type="checkbox"> Remember me <small>(demo only)</small></label>
+<p id="error" role="alert" hidden></p>
+<button type="submit" disabled>Log-on <span aria-hidden="true">↗</span></button>
+<noscript>Enable JavaScript to try the demo.</noscript>
+</form>
+</section>
+</main>
+<footer>Biller Network · Client portal demo</footer>
+</body>
+</html>
